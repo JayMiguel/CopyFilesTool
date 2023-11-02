@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1a95b31e-16ff-4347-9fbd-ebe77e677edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{e03b69fb-3205-429a-a7af-6f94bcf95e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\window">
+      <UniqueIdentifier>{3d297cdd-68ed-4ff7-80a4-ee977ec4d53e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\window\FileCopyTools.cpp">
+      <Filter>src\ui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\window\FileCopyTools.h">
+      <Filter>src\ui\window</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="resources\FileCopyTools.qrc" />
+  </ItemGroup>
+</Project>
